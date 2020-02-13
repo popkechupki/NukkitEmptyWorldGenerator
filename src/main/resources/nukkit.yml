@@ -1,0 +1,17 @@
+name: Elevator
+main: net.comorevi.nukkitplugin.EmptyWorld
+load: STARTUP
+version: 1.0.0
+author: popkechupki
+api: ["1.0.0"]
+description: make new emptyworld
+
+commands:
+  void:
+    description: Generate Void World
+    usage: "/void"
+    permission: defPermission
+permissions:
+  defPermission:
+    description: "Allows the user to run the void command"
+    default: op
