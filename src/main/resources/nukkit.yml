@@ -1,4 +1,4 @@
-name: Elevator
+name: EmptyWorldGenerator
 main: net.comorevi.nukkitplugin.EmptyWorld
 load: STARTUP
 version: 1.0.0
